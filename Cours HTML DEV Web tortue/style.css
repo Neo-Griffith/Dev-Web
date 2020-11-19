@@ -1,0 +1,171 @@
+body {
+    font-size: 15pt;
+    color:black;
+    background-color: powderblue
+    
+    
+}
+figcaption{
+  color:red;
+  font-size: 30pt;
+}
+h2{
+  font-size: 70pt;
+  color: blueviolet;
+}
+.test {
+  color:yellow;
+}
+.test2{
+  color:purple;
+}
+.test3{
+  color:orange;
+  font-size: 50pt;
+}
+h1{
+  font-size: 80pt;
+  color:green;
+  font-weight: bold;
+}
+.cat1{
+  color: red;
+  font-size: 20pt;
+}
+
+caption{
+  font-size: 20pt;
+  color:red;
+}
+table {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  width: 50%;
+}
+
+td {
+  border-width: 1px;
+  border-style: solid;
+  border-color: red;
+  width: 50%;
+}
+th{
+  border-width: 1px;
+  border-style: solid;
+  border-color: red;
+  width: 50%;
+}
+.styled {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgba(220, 0, 0, 1);
+  background-image: linear-gradient(to top left,
+      rgba(0, 0, 0, .2),
+      rgba(0, 0, 0, .2) 30%,
+      rgba(0, 0, 0, 0));
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+    inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+  background-color: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+    inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+* {
+  font-family: Avenir, sans-serif;
+}
+
+fieldset {
+  background-color: RGBa(240, 160, 0, 0.2);
+}
+
+legend {
+  font-weight: bold;
+}
+
+.champ {
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 80%;
+  height: 100px;
+}
+
+input {
+  width: 150px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+}
+
+input[type="submit"] {
+  width: 100px;
+}
+footer{
+  color:red;
+  font-family: blueviolet;
+  font-size: 30pt;
+}
+#carrousel {
+  position: relative;
+  height: 200px;
+  width: 700px;
+  margin: auto;
+}
+
+#carrousel ul li {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#photoSlideWrap {
+  margin: auto;
+  width: 100%;
+  overflow: hidden;
+}
+
+#photoSlide>div {
+  float: left;
+  width: 950px;
+  height: 100px;
+}
+
+#photo1 {
+  background-color: #ff33bb;
+}
+
+#photo2 {
+  background-color: #37c448;
+}
+
+#photo3 {
+  background-color: #0047d9;
+}
+
+#photo4 {
+  background-color: #4d81d3;
+}
+#menu{
+    display: block;
+    background: #2000 url(image.jpg.png) left top no-repeat;
+    color: #000000;
+    font: 1em "Trebuchet MS", Arial, sans-serif;
+    line-height: 1em;
+    padding: 4px 0;
+    text-align: center;
+
+}

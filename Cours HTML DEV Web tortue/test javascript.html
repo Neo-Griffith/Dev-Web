@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Test JavaScript</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src='meteo.js' async></script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul id="menu">
+        
+        <li><a href="formulaire.html">Formulaire</a></li>
+        <li> <a href="galerie-photo.html "> Galerie photo</a></li>
+        <li> <a href="Liste.html">Liste</a></li>
+        <li><a href="test javascript.html">Javascrip Test</a> </li>
+      </ul>
+    </nav>
+  </header>
+  <h1>Titre principal</h1>
+  <p>Un paragraphe</p>
+  <p id='p1'></p>
+  <p id='p2'></p>
+  <p id='p3'></p>
+  
+  <strong>Ceci est un texte important </strong>
+  <p id="zone_meteo">La Météo</p></div>
+  <div> <input id="queryLoc" type="text" value="Angers,fr" />
+   <input type="button" value="API METEO" onclick="buttonClickGET()" />
+   <br><br>
+   <div id="photoSlideWrap">
+     <div id="photoSlide">
+       <div id="photo1"><img src="tortue-de-mer.jpg"></a></div>
+       <div id="photo2"><img src="tortue-sillonnee-sulcata-male-de-38-cm-de-plastron-14-kg.jpg"></a> </div>
+       <div id="photo3"> </div>
+       <div id="photo4"> </div>
+     </div>
+     <!--photoSlide-->
+   </div>
+   <!--photoSlideWrap-->
+</body>
+
+</html>
